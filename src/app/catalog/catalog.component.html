@@ -1,0 +1,17 @@
+
+
+<ul>
+  <li *ngFor="let c of products">
+ 
+  <div class="col-xs-6 col-md-4">
+    <div class="product tumbnail thumbnail-3"><a href="#"><img class="image" src="{{ c.link}}" alt="1"></a>
+      <div class="caption">
+        <h6><a href="#">{{ c.name }}</a></h6><span class="price">
+          </span><span class="price sale">${{ c.price }}</span>
+      </div>
+    </div>
+  </div>
+</li>
+
+</ul>
+
